@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Christmas Wish</title>
+    <style>
+      body {
+        background-color: rgb(157, 137, 137);
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="c" height="900px" width="2000px"></canvas>
+
+    SpotLight:
+    <button type="button" id="spotlightOn">On</button>
+    <button type="button" id="spotlightOff">Off</button>
+
+    Ambient Light:
+    <button type="button" id="ambientLightOn">On</button>
+    <button type="button" id="ambientLightOff">Off</button>
+
+    Directional Light:
+    <button type="button" id="directOn">On</button>
+    <button type="button" id="directOff">Off</button>
+
+    <p>
+      Orbital Control:
+      <button type="button" id="orbitOn">On</button>
+      <button type="button" id="orbitOff">Off</button>
+
+      &nbsp;&nbsp;&nbsp;Extras: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fog:
+      <button type="button" id="fogOn">On</button>
+      <button type="button" id="fogOff">Off</button>
+
+      Camera:
+      <button type="button" id="camera1">1</button>
+      <button type="button" id="camera2">2</button>
+
+      Snow:
+      <button type="button" id="snowOn">On</button>
+      <button type="button" id="snowOff">Off</button>
+    </p>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./floor.js"></script>
+  </body>
+</html>

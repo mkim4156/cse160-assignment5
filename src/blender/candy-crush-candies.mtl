@@ -1,0 +1,12 @@
+# Blender 4.3.2 MTL File: 'candy-crush-candies.blend'
+# www.blender.org
+
+newmtl Stripe_Green
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.059832 0.827163 0.013565
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 2.350000
+d 1.000000
+illum 2
