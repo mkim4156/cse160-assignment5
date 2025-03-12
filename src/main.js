@@ -4,7 +4,6 @@ import {OBJLoader} from 'three/addons/loaders/OBJLoader.js';
 import {FirstPersonControls} from 'three/addons/controls/FirstPersonControls.js';
 import {MTLLoader} from 'three/addons/loaders/MTLLoader.js';
 
-
 // Global Variable
 let g_spotOn = true;
 let g_ambient = true;
