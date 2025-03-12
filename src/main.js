@@ -3,11 +3,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import {OBJLoader} from 'three/addons/loaders/OBJLoader.js';
 import {FirstPersonControls} from 'three/addons/controls/FirstPersonControls.js';
 import {MTLLoader} from 'three/addons/loaders/MTLLoader.js';
-import Stats from '../node_modules/stats.js/src/Stats.js';
 
-const stats = new Stats()
-stats.showPanel(0) // 0: fps, 1: ms, 2: mb, 3+: custom
-document.body.appendChild(stats.dom)
 
 // Global Variable
 let g_spotOn = true;
@@ -204,7 +200,6 @@ const geometry1 = new THREE.SphereGeometry(0.2, 32, 32);
     }
 
     renderer.render(scene, activeCamera);
-    stats.update();
   }
 
   animate();
